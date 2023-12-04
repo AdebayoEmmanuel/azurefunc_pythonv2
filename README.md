@@ -19,7 +19,7 @@ The main project folder, <project_root>, can contain the following files:
 
 * `.venv/`: (Optional) Contains a Python virtual environment that's used by local development.
 * `.vscode/`: (Optional) Contains the stored Visual Studio Code configuration. To learn more, see Visual Studio Code settings.
-* `function_app.py`: The default location for all functions and their related triggers and bindings.
+* `function_app.py`: entry point for functions execution.
 * `Functest1/`: Contains the `main.py` for our first function.
 * `Functest2/`: Contains the `main.py` for our second function.
 * `.funcignore`: (Optional) Declares files that shouldn't get published to Azure. Usually, this file contains `.vscode/ `to ignore your editor setting, `.venv/` to ignore local Python virtual environment, and `local.settings.json` to prevent local app settings being published.
